@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testsuite]">
+  <test thread-count="5" name="Bank Test(failed)">
+    <classes>
+      <class name="com.bank.testsuite.BankTest">
+        <methods>
+          <include name="customerShouldWithdrawMoneySuccessfully"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="inIT"/>
+        </methods>
+      </class> <!-- com.bank.testsuite.BankTest -->
+    </classes>
+  </test> <!-- Bank Test(failed) -->
+</suite> <!-- Failed suite [testsuite] -->
